@@ -33,6 +33,11 @@ irm https://raw.githubusercontent.com/arnohsu-0930/cross-agent-workflow/main/ins
 
 裝完後追加（可選）：NotebookLM `uv tool install notebooklm-mcp-cli && nlm login`、MCPVault `npm install -g @bitbonsai/mcpvault`。
 
+## ⚠️ 必做收尾（2026-07-06 起）：接上 agents/ 操作制度
+
+日常執行制度已移到 **my-second-brain repo 的 `SecondBrain/agents/`**（模型調度、派工模板、判斷力 Rubric、踩坑總帳、開工收工協議完整版；與本 repo 衝突時以 agents/ 為準）。
+上面腳本裝完後，**照 `~/Documents/SecondBrain/agents/99-安裝區塊.md` 做**：把該檔內的「通用路由區塊」貼進每個已安裝 agent 的全域指示檔（該檔有各 agent 檔案位置對照表與驗收清單）。若你是 AI Agent 讀到這裡：直接讀 99-安裝區塊.md 照做，完成後向使用者回報驗收三項的結果。
+
 ---
 
 ## 手動路徑（非 Claude Code，或想自己控制）
