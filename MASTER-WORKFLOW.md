@@ -1,5 +1,8 @@
 # MASTER-WORKFLOW — Arno 的跨 Agent 全域工作流程
 
+> ⚠️ **2026-07-06 起，日常執行制度移至 my-second-brain repo 的 `SecondBrain/agents/`**（入口 `agents/00-INDEX.md`；含模型調度守則、派工模板、判斷力 Rubric、踩坑總帳、開工收工協議完整版）。
+> 本檔保留為上游概念與安裝說明；**兩邊衝突時以 `agents/` 為準**。agents/ 隨 my-second-brain 開工 pull / 收工 push 跨電腦同步。
+
 > **這是唯一真相來源（Single Source of Truth）。**
 > 任何 AI Agent（Claude Code / Codex / OpenCode / AntiGravity）讀到這份文件，
 > 都必須依 `INSTALL-GLOBAL.md` 把本檔內容安裝進「自己的全域設定檔」，
